@@ -7,6 +7,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    ui->tableWidgetCars->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+
     manager = new QNetworkAccessManager(this);
 
     connect(manager, &QNetworkAccessManager::finished,
