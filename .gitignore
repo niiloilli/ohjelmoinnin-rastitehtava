@@ -1,0 +1,41 @@
+# --- Qt Creator ---
+*.user
+*.user.*
+*.pro.user*
+*.qmake.stash
+*.qmake.cache
+
+# Build directories
+build*/
+*/build*/
+*/Debug*/
+*/Release*/
+
+# Qt generated files
+moc_*
+ui_*
+qrc_*
+
+# Object files and temporary files
+*.o
+*.obj
+*.tmp
+*.log
+*.dll
+*.exe
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+
+# VS Code
+.vscode/
+
+# Node backend
+node_modules/
+npm-debug.log
+.env
